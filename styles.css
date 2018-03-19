@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+h1 {
+    padding: 30px;
+    font-family: 'georgia', sans-serif;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+a {
+    font-family: 'georgia', sans-serif;
+    font-size: 1.2em;
+}
+
+.overskrift {
+    grid-column: 7;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+}
+
+.header {
+    background-color: #052951;
+    height: 300px;
+
+
+}
+
+/* Style the navbar */
+
+#navbar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    overflow: hidden;
+    background-color: #052951;
+
+}
+
+/* Navbar links */
+
+#navbar a {
+    float: right;
+    display: block;
+    color: #00B9EA;
+    padding: 14px;
+    text-decoration: none;
+    width: 100px;
+
+
+}
+
+a:hover {
+    background-color: #D5EDFA;
+}
+
+/* Page content */
+
+#start {
+    padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+
+
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky + #start {
+    padding-top: 65px;
+}
+
+
+
+.link {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#infografik img {
+    height: 90vh;
+    width: 100vw;
+}
