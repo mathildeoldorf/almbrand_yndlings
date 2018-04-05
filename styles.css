@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body{
+	font-family: "georgia" cursive;
+	font-style: italic;
+}
+
 header {
     background-color: #082945;
 
@@ -19,47 +24,41 @@ header {
     overflow: hidden;
     width: 80vw;
     background-repeat: no-repeat;
-<<<<<<< HEAD
-
+	
     grid-column: 7;
     margin-top: 2vw;
 }
 
 section {
     grid-template-columns: repeat(13, 1fr);
-    max-width: 800px;
-    height: 20vw;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: 10vw auto;
+	padding: 4vw;
     background-color: #DFEDFA;
 }
+
+
+
+h1{
+	grid-column: 1/14;
+	text-align: center;
+	font-size: 5.5vw;
+	padding: 2vw;
+	color: #052951;
+}
+
+/***** Infografik mikkel ****/
 
 .video {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 80%;
-=======
-    grid-column: 7;
-    margin-top: 2vw;
+    grid-column: 2/13;
+	text-align: center;
 }
 
-section {
-    max-width: 800px;
-    height: 20vw;
-    margin: 0 auto;
-    background-color: #DFEDFA;
->>>>>>> origin/master
+.forsikringsbehov {
+	background-image: url(img/infografik.png);
+	grid-column: 2/13;
+	height: 50vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
-
-
-@media screen and (max-width: 667px) {
-    iframe {
-        width: 490px;
-        height: 265px;
-    }
-}
-
-@media screen and (min-width: 668px) and (max-width: 1000px) {
-    iframe {}
-}
-
-@media screen and(min-width:1001px) {}
