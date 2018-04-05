@@ -19,6 +19,7 @@ header {
     overflow: hidden;
     width: 80vw;
     background-repeat: no-repeat;
+<<<<<<< HEAD
 
     grid-column: 7;
     margin-top: 2vw;
@@ -36,6 +37,17 @@ section {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 80%;
+=======
+    grid-column: 7;
+    margin-top: 2vw;
+}
+
+section {
+    max-width: 800px;
+    height: 20vw;
+    margin: 0 auto;
+    background-color: #DFEDFA;
+>>>>>>> origin/master
 }
 
 
