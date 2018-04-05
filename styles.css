@@ -1,32 +1,31 @@
 * {
-	margin: 0;
-	box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 header {
-	background-color: #082945;
+    background-color: #082945;
 
-	width: 100vw;
-	height: 20vw;
+    width: 100vw;
+    height: 20vw;
 
-	display: grid;
-	grid-template-columns: repeat(13, 1fr);
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
 }
 
 #titel {
-	background-image: url(img/y.svg);
-	background-size: contain;
-	overflow: hidden;
-	width: 80vw;
-	background-repeat: no-repeat;
-
-	grid-column: 7;
-	margin-top: 2vw;
+    background-image: url(img/y.svg);
+    background-size: contain;
+    overflow: hidden;
+    width: 80vw;
+    background-repeat: no-repeat;
+    grid-column: 7;
+    margin-top: 2vw;
 }
 
-section{
-	max-width: 800px;
-	height: 20vw;
-	margin: 0 auto;
-	background-color: #DFEDFA;
+section {
+    max-width: 800px;
+    height: 20vw;
+    margin: 0 auto;
+    background-color: #DFEDFA;
 }
